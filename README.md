@@ -115,12 +115,12 @@ Streamlit will open the app in your browser (usually at `http://localhost:8501`)
 | Input length        | `max_len - 1` (`max_len` = 745)                |
 | Output              | Probability distribution over the vocabulary   |
 | Tokenizer           | Keras `Tokenizer` (saved as `tokenizer.pkl`)   |
-| Training dataset    | [Add dataset name / source here]               |
-| Vocabulary size     | [Add value]                                    |
-| Embedding dimension | [Add value]                                    |
-| LSTM units          | [Add value]                                    |
-| Optimizer / Loss    | [Add value, e.g. Adam / categorical cross-entropy] |
-| Epochs              | [Add value]                                    |
+| Training dataset    | quote_dataset.csv                              |
+| Vocabulary size     | 9000                                           |
+| Embedding dimension | 50                                             |
+| LSTM units          | 128                                            |
+| Optimizer / Loss    | Adam / categorical cross-entropy]              |
+| Epochs              | 150                                            |
 
 ---
 
