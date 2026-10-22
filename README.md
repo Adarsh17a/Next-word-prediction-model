@@ -119,7 +119,7 @@ Streamlit will open the app in your browser (usually at `http://localhost:8501`)
 | Vocabulary size     | 9000                                           |
 | Embedding dimension | 50                                             |
 | LSTM units          | 128                                            |
-| Optimizer / Loss    | Adam / categorical cross-entropy]              |
+| Optimizer / Loss    | Adam / categorical cross-entropy               |
 | Epochs              | 150                                            |
 
 ---
